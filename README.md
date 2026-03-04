@@ -98,12 +98,12 @@ This plugin provides access to **89 tools** across these categories:
 ### SEO & Optimization
 - Technical SEO audits with prioritized recommendations
 - Generate llms.txt files for AI discoverability
-- IndexNow instant indexing for search engines
+- Instant indexing for search engines
 - Action grids for tracking optimization tasks
 
 ### GTM Strategy
 - 6-module, 21-step Go-To-Market strategy builder
-- Perplexity deep search for each strategy step
+- Deep search for each strategy step
 - 90-day content calendar with status tracking
 
 ## Slash Commands
@@ -146,7 +146,7 @@ This plugin provides access to **89 tools** across these categories:
 
 ## Requirements
 
-- A [Reaudit](https://reaudit.io) account (free tier available)
+- A [Reaudit](https://reaudit.io) account
 - Cursor, Claude Code, or any MCP-compatible AI client
 
 ## Documentation
