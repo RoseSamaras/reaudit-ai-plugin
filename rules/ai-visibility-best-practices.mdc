@@ -1,0 +1,36 @@
+---
+description: Best practices and terminology for AI search visibility (GEO) when using Reaudit tools
+alwaysApply: false
+---
+
+# AI Search Visibility Context
+
+When working with Reaudit tools or discussing AI search visibility:
+
+## Key Terminology
+
+- **GEO (Generative Engine Optimization)**: Optimizing content to appear in AI-generated search responses. The AI equivalent of SEO.
+- **AI Visibility Score**: A 0-100 metric measuring how often and how prominently a brand appears across AI search engines.
+- **Brand Mention**: When an AI engine references a brand in its response to a user query.
+- **Citation**: When an AI engine links to or credits a specific URL as a source.
+- **Prompt Tracking**: Monitoring specific queries across AI engines to check if/how a brand is mentioned.
+- **Fanout Queries**: Hidden internal search queries that ChatGPT runs behind the scenes before generating a response.
+
+## Supported AI Platforms
+
+Reaudit tracks visibility across 11 AI engines: ChatGPT, Claude, Perplexity, Google Gemini, Google AI Overview, Google AI Mode, Microsoft Copilot, Meta AI, DeepSeek, Grok, and Mistral.
+
+## Optimization Principles
+
+- AI engines favor content that is factual, well-structured, and recently updated
+- Direct answers to specific questions are more likely to be cited
+- Authority signals (citations, data, expert quotes) improve AI visibility
+- An llms.txt file at your domain root helps AI assistants understand your business
+- Content published with schema markup is more discoverable by AI crawlers
+- Multiple content formats covering the same topic increase citation surface area
+
+## Common Workflows
+
+1. **Audit**: Check visibility score -> review mentions -> analyze citations -> compare with competitors
+2. **Optimize**: Identify gaps -> generate targeted content -> publish with schema -> track results
+3. **Monitor**: Set up prompt topics -> schedule tracking -> review analytics -> iterate

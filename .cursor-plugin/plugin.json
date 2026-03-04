@@ -1,0 +1,28 @@
+{
+  "name": "reaudit",
+  "displayName": "Reaudit",
+  "version": "1.0.0",
+  "description": "AI Search Visibility Platform — Track, optimize, and grow your brand presence across ChatGPT, Claude, Perplexity, Gemini, and 7 more AI engines directly from Cursor.",
+  "author": {
+    "name": "Reaudit",
+    "email": "support@reaudit.io"
+  },
+  "homepage": "https://reaudit.io",
+  "repository": "https://github.com/RoseSamaras/reaudit-ai-plugin",
+  "license": "MIT",
+  "keywords": [
+    "ai-visibility",
+    "ai-search",
+    "geo",
+    "seo",
+    "brand-monitoring",
+    "content-optimization",
+    "chatgpt",
+    "perplexity",
+    "gemini",
+    "claude",
+    "copilot",
+    "mcp"
+  ],
+  "logo": "assets/logo.svg"
+}
