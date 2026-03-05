@@ -1,8 +1,8 @@
 {
   "name": "reaudit",
   "displayName": "Reaudit",
-  "version": "1.0.0",
-  "description": "AI Search Visibility Platform — Track, optimize, and grow your brand presence across ChatGPT, Claude, Perplexity, Gemini, and 7 more AI engines directly from Cursor.",
+  "version": "1.1.0",
+  "description": "AI Search Visibility Platform — Track, optimize, and amplify your brand presence across ChatGPT, Claude, Perplexity, Gemini, and 7 more AI engines. Includes paid intelligence with ad creative generation, visibility gap detection, and closed-loop ROI analytics.",
   "author": {
     "name": "Reaudit",
     "email": "support@reaudit.io"
@@ -17,6 +17,9 @@
     "seo",
     "brand-monitoring",
     "content-optimization",
+    "paid-intelligence",
+    "ad-creative",
+    "visibility-gaps",
     "chatgpt",
     "perplexity",
     "gemini",

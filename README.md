@@ -1,6 +1,6 @@
 # Reaudit AI Plugin
 
-Official Reaudit plugin for Cursor, Claude Code, and other AI coding tools. Access your AI search visibility data, generate optimized content, and manage brand monitoring directly from your editor.
+Official Reaudit plugin for Cursor, Claude Code, and other AI coding tools. Access your AI search visibility data, generate optimized content, manage paid amplification campaigns, and monitor brand presence directly from your editor.
 
 ## What is Reaudit?
 
@@ -64,7 +64,7 @@ If you prefer API key authentication, generate a key in your [Reaudit Dashboard]
 
 ## Features
 
-This plugin provides access to **89 tools** across these categories:
+This plugin provides access to **102 tools** across these categories:
 
 ### AI Visibility
 - Check your AI visibility score across 11 platforms
@@ -89,6 +89,14 @@ This plugin provides access to **89 tools** across these categories:
 - Find content gaps where competitors outrank you
 - Monitor competitor mentions and citation patterns
 
+### Paid Intelligence
+- **Ad Creative Generation** — Generate AI-powered ad creatives with GEO scoring for Google, Meta, LinkedIn, and X/Twitter
+- **Visibility Gap Detection** — Identify queries where your brand is absent, underperforming, or dominated by competitors
+- **Campaign Management** — Create and manage ad campaigns across platforms with budget tracking
+- **Platform Connections** — Connect Google Ads, Meta Ads, LinkedIn Ads, and X/Twitter Ads accounts
+- **Visibility Lift Analytics** — Measure how ad campaigns correlate with AI visibility score improvements
+- **ROI Dashboard** — Closed-loop reporting: ad spend vs. visibility delta, cost per visibility point, gap coverage
+
 ### Analytics & Reporting
 - Unified analytics dashboard across all connected sources
 - Custom analytics queries with flexible metrics and dimensions
@@ -106,6 +114,17 @@ This plugin provides access to **89 tools** across these categories:
 - Deep search for each strategy step
 - 90-day content calendar with status tracking
 
+### Interactive MCP Apps (Cursor 2.6+)
+
+For Cursor 2.6+ users, four tools return rich interactive visualizations directly in the chat:
+
+- **Visibility Score** — Gauge chart with platform-by-platform breakdown bars
+- **Citation Tracker** — Donut chart with citation distribution and sparkline trends
+- **AI Crawl Monitor** — Terminal-style log of AI bot activity with bot badges
+- **AI Readiness Score** — Score card with category progress bars
+
+These MCP Apps use the Reaudit dark theme with glass card effects and platform-specific colors.
+
 ## Slash Commands
 
 - `/reaudit:visibility` — Check brand visibility scores
@@ -114,6 +133,7 @@ This plugin provides access to **89 tools** across these categories:
 - `/reaudit:competitors` — Competitor comparison
 - `/reaudit:analytics` — Analytics dashboards and reports
 - `/reaudit:sources` — Citation source analysis
+- `/reaudit:paid-intelligence` — Manage paid amplification campaigns and visibility gaps
 
 ## Skills
 
@@ -121,6 +141,7 @@ This plugin provides access to **89 tools** across these categories:
 - **Content Optimization** — Generate and publish GEO-optimized content
 - **Competitor Analysis** — Benchmark against competitors in AI search
 - **Prompt Tracking Setup** — Set up systematic prompt monitoring at scale
+- **Paid Intelligence Campaigns** — End-to-end workflow for visibility-driven paid amplification
 
 ## Example Usage
 
@@ -142,6 +163,12 @@ This plugin provides access to **89 tools** across these categories:
 
 > Create a GTM strategy for my product launch
 > Generate prompt suggestions for my industry
+
+> Generate a Google search ad for "best CRM software"
+> What are my visibility gaps?
+> Create a campaign brief for my top visibility gap
+> What's my paid intelligence ROI?
+> Show me the visibility lift from my ad campaigns
 ```
 
 ## Requirements
@@ -154,6 +181,12 @@ This plugin provides access to **89 tools** across these categories:
 - [Reaudit Platform](https://reaudit.io)
 - [MCP Server Documentation](https://reaudit.io/docs/mcp)
 - [Help Center](https://reaudit.io/help)
+
+## Privacy & Support
+
+- [Privacy Policy](https://reaudit.io/privacy)
+- [Terms of Service](https://reaudit.io/terms)
+- Email: support@reaudit.io
 
 ## License
 

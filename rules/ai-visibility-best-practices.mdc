@@ -15,10 +15,18 @@ When working with Reaudit tools or discussing AI search visibility:
 - **Citation**: When an AI engine links to or credits a specific URL as a source.
 - **Prompt Tracking**: Monitoring specific queries across AI engines to check if/how a brand is mentioned.
 - **Fanout Queries**: Hidden internal search queries that ChatGPT runs behind the scenes before generating a response.
+- **Visibility Gap**: A query where your brand is absent, underperforming, or dominated by competitors in AI responses.
+- **GEO Score**: A 0-100 quality metric for ad creatives measuring semantic coverage, keyword variants, AI readability, and authority signals.
+- **Visibility Lift**: The measured change in AI visibility scores correlated with paid ad campaigns.
+- **Cost per Visibility Point**: Ad spend divided by the number of visibility score points gained — the core efficiency metric for paid intelligence.
 
 ## Supported AI Platforms
 
 Reaudit tracks visibility across 11 AI engines: ChatGPT, Claude, Perplexity, Google Gemini, Google AI Overview, Google AI Mode, Microsoft Copilot, Meta AI, DeepSeek, Grok, and Mistral.
+
+## Supported Ad Platforms
+
+Reaudit Paid Intelligence supports 4 ad platforms: Google Ads, Meta Ads, LinkedIn Ads, and X/Twitter Ads. Each supports multiple formats (search RSA, display, feed, stories, reels, carousel, video scripts, sponsored content, message ads, lead gen, promoted posts, threads).
 
 ## Optimization Principles
 
@@ -28,9 +36,12 @@ Reaudit tracks visibility across 11 AI engines: ChatGPT, Claude, Perplexity, Goo
 - An llms.txt file at your domain root helps AI assistants understand your business
 - Content published with schema markup is more discoverable by AI crawlers
 - Multiple content formats covering the same topic increase citation surface area
+- Paid amplification can accelerate visibility gains for high-priority gaps
+- GEO-scored ad creatives align paid messaging with what AI engines value
 
 ## Common Workflows
 
 1. **Audit**: Check visibility score -> review mentions -> analyze citations -> compare with competitors
 2. **Optimize**: Identify gaps -> generate targeted content -> publish with schema -> track results
 3. **Monitor**: Set up prompt topics -> schedule tracking -> review analytics -> iterate
+4. **Amplify**: Detect visibility gaps -> generate campaign briefs -> create GEO-scored creatives -> launch campaigns -> measure lift -> optimize ROI
