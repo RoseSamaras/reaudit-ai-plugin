@@ -1,8 +1,8 @@
 {
   "name": "reaudit",
   "displayName": "Reaudit",
-  "version": "1.1.0",
-  "description": "AI Search Visibility Platform — Track, optimize, and amplify your brand presence across ChatGPT, Claude, Perplexity, Gemini, and 7 more AI engines. Includes paid intelligence with ad creative generation, visibility gap detection, and closed-loop ROI analytics.",
+  "version": "1.2.0",
+  "description": "AI Search Visibility Platform — Track, optimize, and amplify your brand presence across ChatGPT, Claude, Perplexity, Gemini, and 7 more AI engines. 149 tools: visibility scoring, prompt tracking, GEO content generation, paid intelligence with multi-platform ad campaigns, CRO with funnel analysis and A/B testing, revenue attribution, Reddit lead monitoring, Bing Webmaster, and interactive MCP App visualizations.",
   "author": {
     "name": "Reaudit",
     "email": "support@reaudit.io"
@@ -20,12 +20,17 @@
     "paid-intelligence",
     "ad-creative",
     "visibility-gaps",
+    "cro",
+    "conversion-optimization",
+    "revenue-attribution",
+    "reddit-monitoring",
     "chatgpt",
     "perplexity",
     "gemini",
     "claude",
     "copilot",
-    "mcp"
+    "mcp",
+    "mcp-apps"
   ],
   "logo": "assets/logo.svg"
 }
