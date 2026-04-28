@@ -64,7 +64,7 @@ If you prefer API key authentication, generate a key in your [Reaudit Dashboard]
 
 ## Features
 
-This plugin provides access to **149 tools** across these categories:
+This plugin provides access to **152 tools** across these categories:
 
 ### AI Visibility
 - Check your AI visibility score across 11 platforms
@@ -138,6 +138,12 @@ This plugin provides access to **149 tools** across these categories:
 - Instant indexing for search engines (Google, Bing)
 - Action grids for tracking optimization tasks
 
+### GitHub Auto-Fixes
+- **Repo connections** — check whether a project has a GitHub repo connected
+- **Propose fixes** — turn audit findings into a patch preview before opening a PR
+- **Open SEO and GEO fix PRs** — write the fix and open a pull request directly in your repo on a fresh branch
+- Reaudit never pushes to your default branch. Every change is a pull request you review and merge.
+
 ### Reddit Lead Monitoring
 - Monitor Reddit for brand mentions and lead opportunities
 - Track and qualify Reddit leads by relevance
@@ -173,6 +179,7 @@ These MCP Apps use the Reaudit dark theme with glass card effects and platform-s
 - `/reaudit:cro` — Conversion rate optimization dashboard and tools
 - `/reaudit:reddit` — Reddit lead monitoring and qualification
 - `/reaudit:attribution` — Revenue attribution across AI sources
+- `/reaudit:github` — Open pull requests that fix SEO and GEO issues found in your audits
 
 ## Skills
 
@@ -183,6 +190,7 @@ These MCP Apps use the Reaudit dark theme with glass card effects and platform-s
 - **Paid Intelligence Campaigns** — End-to-end workflow for visibility-driven paid amplification
 - **CRO Optimization** — Analyze and improve conversion rates with AI-powered insights
 - **Reddit Lead Generation** — Monitor Reddit for brand mentions and qualify leads
+- **GitHub PR Fixing** — Connect a repo, scan an audit, open pull requests that fix SEO and GEO issues
 
 ## Example Usage
 
@@ -221,6 +229,10 @@ These MCP Apps use the Reaudit dark theme with glass card effects and platform-s
 > Show my Reddit leads
 > Are there any SEO alerts?
 > How's my Bing search performance?
+
+> Which of my projects has a GitHub repo connected?
+> Open a pull request that fixes the SEO issues in my latest audit
+> Preview the fixes you would propose for the missing-llms.txt recommendation
 ```
 
 ## Privacy Policy
