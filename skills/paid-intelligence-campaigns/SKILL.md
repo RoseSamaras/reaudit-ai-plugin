@@ -1,6 +1,6 @@
 ---
 name: paid-intelligence-campaigns
-description: End-to-end workflow for AI-visibility-driven paid amplification. Use when a user wants to find visibility gaps, generate ad creatives, manage campaigns, or analyze paid intelligence ROI across Google, Meta, LinkedIn, and X/Twitter.
+description: End-to-end workflow for AI-visibility-driven paid amplification. Use when a user wants to find visibility gaps, generate ad creatives, manage campaigns, or analyze paid intelligence ROI across Google, Meta, LinkedIn, X/Twitter, and ChatGPT Ads (OpenAI).
 ---
 
 # Paid Intelligence Campaigns
@@ -40,8 +40,8 @@ Run the full paid amplification loop: detect visibility gaps, generate GEO-score
 ### Step 3: Generate Ad Creatives
 
 - Use `generate_ad_creative` with:
-  - `platform`: google, meta, linkedin, or twitter
-  - `format`: search_rsa, display, feed, stories, reels, carousel, video_script, sponsored_content, message_ad, lead_gen, promoted_post, thread
+  - `platform`: google, meta, linkedin, twitter, or **openai** (ChatGPT Ads)
+  - `format`: search_rsa, display, feed, stories, reels, carousel, video_script, sponsored_content, message_ad, lead_gen, promoted_post, thread, **chat_card** (OpenAI only — utility-first, no-hype voice tuned for placements inside ChatGPT answers)
   - `targetQuery`: the AI query to target
   - `tone`: professional, casual, bold, technical, friendly
   - `variantCount`: 1-5 A/B variants
@@ -51,8 +51,16 @@ Run the full paid amplification loop: detect visibility gaps, generate GEO-score
 ### Step 4: Launch Campaigns
 
 - Use `create_ad_campaign` with platform, name, budget, and schedule
+- `platform` accepts: google, meta, linkedin, twitter, or **openai** (ChatGPT Ads — full CRUD over campaigns, ad groups, and `chat_card` creatives)
 - Link the generated creatives to the campaign
 - Start with a conservative daily budget and scale based on results
+
+### Step 4b: Configure Paid Analytics Alerts (optional)
+
+- Use `create_analytics_alert` to set anomaly thresholds on paid metrics:
+  - **ChatGPT Ads paid metrics** (sourced from `openai_ads`): `paidSpend`, `paidClicks`, `paidImpressions`, `paidCtr`, `paidCpc`, `paidConversions`
+- Daily anomaly evaluation runs against the previous day's aggregated performance row
+- Use `list_analytics_alerts` to review existing alerts
 
 ### Step 5: Monitor Performance
 

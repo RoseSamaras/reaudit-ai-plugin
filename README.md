@@ -64,7 +64,7 @@ If you prefer API key authentication, generate a key in your [Reaudit Dashboard]
 
 ## Features
 
-This plugin provides access to **152 tools** across these categories:
+This plugin provides access to **162 tools** across these categories:
 
 ### AI Visibility
 - Check your AI visibility score across 11 platforms
@@ -92,15 +92,23 @@ This plugin provides access to **152 tools** across these categories:
 - Monitor competitor mentions and citation patterns
 
 ### Paid Intelligence
-- **Ad Creative Generation** — Generate AI-powered ad creatives with GEO scoring for Google, Meta, LinkedIn, and X/Twitter
+- **Ad Creative Generation** — Generate AI-powered ad creatives with GEO scoring for Google, Meta, LinkedIn, X/Twitter, and ChatGPT Ads (OpenAI `chat_card` format)
 - **Visibility Gap Detection** — Identify queries where your brand is absent, underperforming, or dominated by competitors
 - **Campaign Management** — Create and manage ad campaigns across platforms with budget tracking
-- **Platform Connections** — Connect Google Ads, Meta Ads, LinkedIn Ads, and X/Twitter Ads accounts
+- **Platform Connections** — Connect Google Ads, Meta Ads, LinkedIn Ads, X/Twitter Ads, and ChatGPT Ads (OpenAI) accounts
 - **Visibility Lift Analytics** — Measure how ad campaigns correlate with AI visibility score improvements
 - **ROI Dashboard** — Closed-loop reporting: ad spend vs. visibility delta, cost per visibility point, gap coverage
 - **Advanced Analytics** — Search term reports, keyword/ad performance, negative keywords, bid management, cross-platform comparison
 - **Meta Deep Insights** — Audience insights, creative performance, campaign status management
-- **Multi-Platform Campaigns** — Create and analyze campaigns on Meta, LinkedIn, and X/Twitter directly
+- **Multi-Platform Campaigns** — Create and analyze campaigns on Meta, LinkedIn, X/Twitter, and ChatGPT Ads (OpenAI) directly
+- **ChatGPT Ads (OpenAI)** — Full integration with the OpenAI Advertiser API: 7-day rollups, configurable 1–90 day daily performance series, and live campaign / ad-group / ad insights with `since`, `until`, and `granularity` controls
+- **Paid Analytics Alerts** — Configure anomaly alerts on six new paid metrics sourced from ChatGPT Ads: `paidSpend`, `paidClicks`, `paidImpressions`, `paidCtr`, `paidCpc`, `paidConversions`
+
+### ChatGPT Competitor Ad Intelligence (Adthena-style)
+- **Sponsored Carousel Capture** — Every tracked-prompt run on ChatGPT Search captures the sponsored carousel cards alongside the organic answer
+- **Ad-Presence Summary** — See how often sponsored cards appear across your tracked prompts, total card volume, unique advertisers, and the own / tracked-competitor / other split
+- **Top Advertisers** — Ranked list of advertisers dominating your queries, tagged as own brand, tracked competitor, or other
+- **Weekly Diff** — "What changed this week" view: new advertisers, lost advertisers, and presence-rate shifts over the last 7 days vs. the prior 7
 
 ### Conversion Rate Optimization (CRO)
 - **CRO Dashboard** — Unified view of conversion metrics, funnels, and optimization opportunities
@@ -176,6 +184,7 @@ These MCP Apps use the Reaudit dark theme with glass card effects and platform-s
 - `/reaudit:analytics` — Analytics dashboards and reports
 - `/reaudit:sources` — Citation source analysis
 - `/reaudit:paid-intelligence` — Manage paid amplification campaigns and visibility gaps
+- `/reaudit:chatgpt-ads` — ChatGPT Ads (OpenAI) performance and Adthena-style competitor ad intelligence
 - `/reaudit:cro` — Conversion rate optimization dashboard and tools
 - `/reaudit:reddit` — Reddit lead monitoring and qualification
 - `/reaudit:attribution` — Revenue attribution across AI sources
@@ -188,6 +197,7 @@ These MCP Apps use the Reaudit dark theme with glass card effects and platform-s
 - **Competitor Analysis** — Benchmark against competitors in AI search
 - **Prompt Tracking Setup** — Set up systematic prompt monitoring at scale
 - **Paid Intelligence Campaigns** — End-to-end workflow for visibility-driven paid amplification
+- **ChatGPT Competitor Ads** — Adthena-style workflow for tracking which advertisers dominate sponsored carousels on ChatGPT Search and what changed this week
 - **CRO Optimization** — Analyze and improve conversion rates with AI-powered insights
 - **Reddit Lead Generation** — Monitor Reddit for brand mentions and qualify leads
 - **GitHub PR Fixing** — Connect a repo, scan an audit, open pull requests that fix SEO and GEO issues
@@ -214,10 +224,20 @@ These MCP Apps use the Reaudit dark theme with glass card effects and platform-s
 > Generate prompt suggestions for my industry
 
 > Generate a Google search ad for "best CRM software"
+> Generate a ChatGPT chat_card ad for "AI search visibility platform"
 > What are my visibility gaps?
 > Create a campaign brief for my top visibility gap
 > What's my paid intelligence ROI?
 > Show me the visibility lift from my ad campaigns
+
+> What's my ChatGPT Ads performance this week?
+> Show my ChatGPT Ads daily performance over the last 30 days
+> Get insights for my ChatGPT Ads campaign abc-123 between 2026-04-01 and 2026-04-30
+> Alert me when my ChatGPT Ads paidSpend doubles week over week
+
+> Which advertisers are dominating ChatGPT for my queries?
+> How often do sponsored cards appear on ChatGPT for my tracked prompts?
+> What changed in ChatGPT competitor ads this week?
 
 > Show my CRO dashboard
 > Analyze my landing page conversion rate

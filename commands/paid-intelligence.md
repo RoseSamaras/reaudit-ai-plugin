@@ -25,14 +25,20 @@ Use the Reaudit MCP tools to manage paid amplification driven by AI visibility d
 - **Meta Ads** — Feed, Stories, Reels, Carousel
 - **LinkedIn Ads** — Sponsored Content, Message Ads, Lead Gen
 - **X/Twitter Ads** — Promoted Posts, Threads
+- **ChatGPT Ads (OpenAI)** — `chat_card` placements inside ChatGPT answers (utility-first, no-hype voice)
+
+For ChatGPT Ads-specific performance and competitor ad intelligence, use the
+dedicated `/reaudit:chatgpt-ads` slash command.
 
 ## Example prompts
 
 - "What are my visibility gaps?"
 - "Generate a Google search ad for 'best CRM software'"
+- "Generate a ChatGPT chat_card ad for 'AI search visibility platform'"
 - "Create a campaign brief for my top visibility gap"
 - "Show me all my ad creatives"
 - "Create a Meta campaign with $50/day budget"
+- "Create a ChatGPT Ads (OpenAI) campaign with $30/day budget"
 - "What's my paid intelligence ROI?"
 - "Show me the visibility lift from my campaigns"
 - "Which ad platforms are connected?"
