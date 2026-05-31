@@ -64,7 +64,7 @@ If you prefer API key authentication, generate a key in your [Reaudit Dashboard]
 
 ## Features
 
-This plugin provides access to **162 tools** across these categories:
+This plugin provides access to **163 tools** across these categories:
 
 ### AI Visibility
 - Check your AI visibility score across 11 platforms
@@ -124,6 +124,13 @@ This plugin provides access to **162 tools** across these categories:
 - Track which AI platforms drive conversions and revenue
 - Referrer breakdown with AI source identification
 
+### AI Commerce (Shopping Visibility)
+- **Shopping AI Visibility** — How your products surface in AI-driven Shopping experiences via your connected Google Merchant Center account
+- **Competitive Share of Voice** — Relative Shopping visibility against tracked competitor domains
+- **Organic Shopping Funnel** — Impressions, clicks, and CTR for your Shopping surfaces
+- **Attribute Completeness** — How well your feed describes products (color, material, gtin, size) so AI systems can understand and recommend them
+- **Feed Issue Detection** — Critical, error, and suggestion-level problems that make products hard for AI to recommend, with affected product counts
+
 ### Analytics & Reporting
 - Unified analytics hub across all connected sources
 - Custom analytics queries with flexible metrics and dimensions
@@ -182,6 +189,7 @@ These MCP Apps use the Reaudit dark theme with glass card effects and platform-s
 - `/reaudit:content` — Generate AI-optimized content
 - `/reaudit:competitors` — Competitor comparison
 - `/reaudit:analytics` — Analytics dashboards and reports
+- `/reaudit:shopping` — Google Merchant Center Shopping AI visibility and product feed health
 - `/reaudit:sources` — Citation source analysis
 - `/reaudit:paid-intelligence` — Manage paid amplification campaigns and visibility gaps
 - `/reaudit:chatgpt-ads` — ChatGPT Ads (OpenAI) performance and Adthena-style competitor ad intelligence
@@ -196,6 +204,7 @@ These MCP Apps use the Reaudit dark theme with glass card effects and platform-s
 - **Content Optimization** — Generate and publish GEO-optimized content
 - **Competitor Analysis** — Benchmark against competitors in AI search
 - **Prompt Tracking Setup** — Set up systematic prompt monitoring at scale
+- **Shopping Visibility** — Analyze Google Merchant Center Shopping AI visibility, competitive share, and product feed health
 - **Paid Intelligence Campaigns** — End-to-end workflow for visibility-driven paid amplification
 - **ChatGPT Competitor Ads** — Adthena-style workflow for tracking which advertisers dominate sponsored carousels on ChatGPT Search and what changed this week
 - **CRO Optimization** — Analyze and improve conversion rates with AI-powered insights
@@ -245,6 +254,11 @@ These MCP Apps use the Reaudit dark theme with glass card effects and platform-s
 
 > Show me revenue attribution by AI source
 > Which AI platforms drive the most conversions?
+
+> How visible are my products in Shopping?
+> What's my Shopping share of voice vs competitors?
+> Which product attributes are incomplete in my feed?
+> What feed issues are hurting how AI recommends my products?
 
 > Show my Reddit leads
 > Are there any SEO alerts?
