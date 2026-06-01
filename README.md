@@ -64,12 +64,14 @@ If you prefer API key authentication, generate a key in your [Reaudit Dashboard]
 
 ## Features
 
-This plugin provides access to **163 tools** across these categories:
+This plugin provides access to **174 tools** across these categories:
 
 ### AI Visibility
 - Check your AI visibility score across 11 platforms
 - View brand mentions and sentiment analysis
+- Read the full verbatim AI engine responses per prompt — exactly what ChatGPT, Perplexity, and others said about your brand
 - Track citation sources and growth trends
+- Reverse citation lookup — see which prompts cause any URL to be cited
 - Monitor AI bot crawl activity on your site
 
 ### Prompt Tracking
@@ -148,6 +150,7 @@ This plugin provides access to **163 tools** across these categories:
 
 ### SEO & Optimization
 - Technical SEO audits with prioritized recommendations
+- Free AI-bot crawlability check — confirm GPTBot, ClaudeBot, PerplexityBot, OAI-SearchBot, Google-Extended, and CCBot can actually reach a page (catches silent WAF/CDN blocks, consumes no credits)
 - SEO alerts for critical issues and ranking changes
 - Generate llms.txt files for AI discoverability
 - Instant indexing for search engines (Google, Bing)
@@ -216,6 +219,9 @@ These MCP Apps use the Reaudit dark theme with glass card effects and platform-s
 ```
 > What's my AI visibility score?
 > How does ChatGPT see my brand?
+> What did ChatGPT and Perplexity actually say about my brand last week?
+> Can GPTBot and ClaudeBot actually reach my homepage?
+> Which prompts cause competitor.com to get cited?
 
 > Track the prompt "best project management tools"
 > Which prompts mention my brand?

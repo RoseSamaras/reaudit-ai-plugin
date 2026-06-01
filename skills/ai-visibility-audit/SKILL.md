@@ -38,6 +38,7 @@ Perform a comprehensive audit of a brand's visibility across AI search engines i
   - Sentiment (positive, neutral, negative)
   - Context (how the brand is being discussed)
 - Identify the prompts that trigger brand mentions
+- Use `get_ai_responses` to read the full verbatim answer each engine returned for the highest-value prompts — quote what ChatGPT, Perplexity, and others literally said, and compare how different engines answered the same prompt
 
 ### Step 3: Review Citation Sources
 
@@ -45,6 +46,7 @@ Perform a comprehensive audit of a brand's visibility across AI search engines i
 - Identify your most-cited content
 - Flag content gaps (topics where competitors are cited but you are not)
 - Use `get_citation_analytics` for trend data on citation growth
+- Use `get_citing_prompts` on a competitor or third-party URL that keeps appearing — see exactly which prompts cause it to be cited, so you know which queries to target with your own content
 
 ### Step 4: Competitor Comparison
 
@@ -63,6 +65,7 @@ Perform a comprehensive audit of a brand's visibility across AI search engines i
 - Use `get_agent_analytics` to check which AI bots are crawling the site
 - Note crawl frequency by bot (GPTBot, ClaudeBot, PerplexityBot, etc.)
 - Identify pages that attract the most AI bot traffic
+- Use `check_crawlability` to confirm those bots can actually reach key pages — it combines robots.txt analysis with live fetches that impersonate each bot's User-Agent, catching silent WAF/CDN blocks that crawl logs alone won't reveal. It's free and consumes no credits.
 
 ### Step 7: Synthesize the Audit Report
 
