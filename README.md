@@ -64,7 +64,7 @@ If you prefer API key authentication, generate a key in your [Reaudit Dashboard]
 
 ## Features
 
-This plugin provides access to **174 tools** across these categories:
+This plugin provides access to **181 tools** across these categories:
 
 ### AI Visibility
 - Check your AI visibility score across 11 platforms
@@ -77,6 +77,7 @@ This plugin provides access to **174 tools** across these categories:
 ### Prompt Tracking
 - Create prompt topics for organized monitoring
 - Track prompts across ChatGPT, Perplexity, Google, and more
+- Add prompts to existing topics, or delete a single wrong/outdated/duplicate prompt without recreating the topic
 - Get AI-generated prompt suggestions for your industry
 - Analyze mention rates, sentiment, and visibility by prompt
 - Generate deep prompt research reports
@@ -92,6 +93,7 @@ This plugin provides access to **174 tools** across these categories:
 - Compare visibility against tracked competitors
 - Add and manage competitor tracking
 - Monitor competitor mentions and citation patterns
+- **Content Radar** — detect, inspect, and AI-analyze competitor content as it is published (angle, topics, gaps, opportunities), and trigger fresh scans of tracked sources
 
 ### Paid Intelligence
 - **Ad Creative Generation** — Generate AI-powered ad creatives with GEO scoring for Google, Meta, LinkedIn, X/Twitter, and ChatGPT Ads (OpenAI `chat_card` format)
@@ -150,6 +152,7 @@ This plugin provides access to **174 tools** across these categories:
 
 ### SEO & Optimization
 - Technical SEO audits with prioritized recommendations
+- **AI agent readiness scan** — 20 checks across discoverability, content accessibility, bot access control, API/Auth/MCP discovery, and agentic commerce, rolled into a 0-5 readiness level with per-check fix guidance
 - Free AI-bot crawlability check — confirm GPTBot, ClaudeBot, PerplexityBot, OAI-SearchBot, Google-Extended, and CCBot can actually reach a page (catches silent WAF/CDN blocks, consumes no credits)
 - SEO alerts for critical issues and ranking changes
 - Generate llms.txt files for AI discoverability
@@ -225,6 +228,9 @@ These MCP Apps use the Reaudit dark theme with glass card effects and platform-s
 
 > Track the prompt "best project management tools"
 > Which prompts mention my brand?
+> Delete the outdated 2025 prompt from my Greek beauty topic
+> Scan my site for AI agent readiness and tell me what's failing
+> What new content have my competitors published this week?
 
 > Write a blog post about AI search optimization
 > Publish my article to WordPress

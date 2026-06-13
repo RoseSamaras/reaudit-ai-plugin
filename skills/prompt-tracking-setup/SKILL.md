@@ -12,6 +12,7 @@ Set up systematic prompt tracking to monitor how AI engines respond to queries r
 - User wants to start tracking their AI visibility
 - User needs to create prompt topics for organized monitoring
 - User wants to add new prompts to track
+- User wants to remove a wrong, outdated, or duplicate prompt from a topic
 - User asks for prompt suggestions based on their industry
 - User wants to analyze which prompts mention their brand
 
@@ -44,6 +45,11 @@ Organize prompts into logical topics. Common topic structures:
 - Use `create_prompt_topic` with a name, description, and initial prompts
 - For existing topics, use `add_prompts_to_topic` to expand coverage
 - Aim for 10-20 prompts per topic for comprehensive coverage
+
+### Step 3b: Clean Up Wrong or Outdated Prompts
+
+- Use `list_prompt_topics` to read each prompt's ID and text
+- Use `delete_prompt` to remove a single wrong, outdated, or duplicate prompt from a topic — identify it by `promptId` (preferred) or, as a fallback, by its exact `promptText`. The rest of the topic and its tracking history stay intact, so there's no need to recreate the whole topic.
 
 ### Step 4: Run Initial Tracking
 
