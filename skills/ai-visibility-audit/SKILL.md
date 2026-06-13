@@ -42,11 +42,17 @@ Perform a comprehensive audit of a brand's visibility across AI search engines i
 
 ### Step 3: Review Citation Sources
 
-- Use `get_citation_sources` to see which pages are being cited
+- Use `get_citation_sources` to see which pages are being cited. Read the per-engine source-type breakdown (brand / video / forum / encyclopedia / social / news / docs) — if an engine leans on video, that's a YouTube opportunity; if it leans on encyclopedias, that's an entity/Wikipedia gap
 - Identify your most-cited content
 - Flag content gaps (topics where competitors are cited but you are not)
 - Use `get_citation_analytics` for trend data on citation growth
 - Use `get_citing_prompts` on a competitor or third-party URL that keeps appearing — see exactly which prompts cause it to be cited, so you know which queries to target with your own content
+
+### Step 3.5: Score Entity Authority
+
+- Use `get_entity_authority` to check whether the brand is a recognized entity in public knowledge graphs (Wikidata QID, Wikipedia presence, detected `sameAs` profiles), returned as a 0-100 score with established/emerging/unrecognized status
+- Entity recognition is now the prerequisite for AI citation (branded web mentions correlate with AI citations far more than backlinks), so a low entity score explains low visibility even when content is strong
+- Surface the tool's prioritized recommendations (create a Wikidata item, add an Organization `sameAs` block, earn consistent named mentions) as early actions
 
 ### Step 4: Competitor Comparison
 

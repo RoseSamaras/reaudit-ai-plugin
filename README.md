@@ -64,13 +64,13 @@ If you prefer API key authentication, generate a key in your [Reaudit Dashboard]
 
 ## Features
 
-This plugin provides access to **181 tools** across these categories:
+This plugin provides access to **182 tools** across these categories:
 
 ### AI Visibility
 - Check your AI visibility score across 11 platforms
 - View brand mentions and sentiment analysis
 - Read the full verbatim AI engine responses per prompt — exactly what ChatGPT, Perplexity, and others said about your brand
-- Track citation sources and growth trends
+- Track citation sources and growth trends, now with a per-engine source-type breakdown (brand, video, forum, encyclopedia, social, news, docs) and a "video opportunity" flag for engines that lean on YouTube
 - Reverse citation lookup — see which prompts cause any URL to be cited
 - Monitor AI bot crawl activity on your site
 
@@ -83,7 +83,7 @@ This plugin provides access to **181 tools** across these categories:
 - Generate deep prompt research reports
 
 ### Content Generation
-- Generate GEO-optimized blog posts, FAQs, comparisons, how-tos, and more
+- Generate GEO-optimized blog posts, FAQs, comparisons, how-tos, and more — every generation returns a 0-100 GEO answer-shape score (answer-first lead, question-form headings, table, stat density, visible freshness date) plus quality warnings
 - Translate content into multiple languages
 - Publish directly to WordPress or React/Next.js sites
 - Create and schedule social media posts
@@ -152,6 +152,8 @@ This plugin provides access to **181 tools** across these categories:
 
 ### SEO & Optimization
 - Technical SEO audits with prioritized recommendations
+- **Entity Authority** — score your brand's recognition in public knowledge graphs (Wikidata QID, Wikipedia presence, detected `sameAs` profiles) into a 0-100 entity score with established/emerging/unrecognized status and prioritized fixes — entity recognition is now the prerequisite for AI citation
+- **ChatGPT eligibility (Bing-grounded)** — optimization reports flag whether your pages are indexed in Bing, since a page Bing hasn't indexed cannot be cited in ChatGPT Search
 - **AI agent readiness scan** — 20 checks across discoverability, content accessibility, bot access control, API/Auth/MCP discovery, and agentic commerce, rolled into a 0-5 readiness level with per-check fix guidance
 - Free AI-bot crawlability check — confirm GPTBot, ClaudeBot, PerplexityBot, OAI-SearchBot, Google-Extended, and CCBot can actually reach a page (catches silent WAF/CDN blocks, consumes no credits)
 - SEO alerts for critical issues and ranking changes
@@ -231,6 +233,11 @@ These MCP Apps use the Reaudit dark theme with glass card effects and platform-s
 > Delete the outdated 2025 prompt from my Greek beauty topic
 > Scan my site for AI agent readiness and tell me what's failing
 > What new content have my competitors published this week?
+
+> Is my brand a recognized entity? Check my Wikidata and Wikipedia presence
+> What's my entity authority score and how do I improve it?
+> Can my pages be cited in ChatGPT? Are they indexed in Bing?
+> Which engines cite YouTube for my prompts — where's my video opportunity?
 
 > Write a blog post about AI search optimization
 > Publish my article to WordPress
