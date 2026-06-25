@@ -12,7 +12,9 @@ Set up systematic prompt tracking to monitor how AI engines respond to queries r
 - User wants to start tracking their AI visibility
 - User needs to create prompt topics for organized monitoring
 - User wants to add new prompts to track
-- User wants to remove a wrong, outdated, or duplicate prompt from a topic
+- User wants to edit/correct an existing prompt's wording, language, or region
+- User wants to rename a topic, enable/disable it, or change its schedule
+- User wants to remove a wrong, outdated, or duplicate prompt — or a whole topic
 - User asks for prompt suggestions based on their industry
 - User wants to analyze which prompts mention their brand
 
@@ -46,10 +48,14 @@ Organize prompts into logical topics. Common topic structures:
 - For existing topics, use `add_prompts_to_topic` to expand coverage
 - Aim for 10-20 prompts per topic for comprehensive coverage
 
-### Step 3b: Clean Up Wrong or Outdated Prompts
+### Step 3b: Edit, Reorganize, or Clean Up Prompts and Topics
 
-- Use `list_prompt_topics` to read each prompt's ID and text
-- Use `delete_prompt` to remove a single wrong, outdated, or duplicate prompt from a topic — identify it by `promptId` (preferred) or, as a fallback, by its exact `promptText`. The rest of the topic and its tracking history stay intact, so there's no need to recreate the whole topic.
+Use `list_prompt_topics` first to read each topic's ID and each prompt's ID and text. Then **edit in place instead of recreating** — recreating a prompt or topic loses its tracking history and creates duplicates.
+
+- **Fix a prompt's wording (or its language/region):** use `update_prompt` with the `promptId` and the new `text`. This is the correct way to "change a prompt" — do **not** delete-and-recreate or add a second prompt.
+- **Rename a topic, change its description, enable/disable scheduled tracking, change its schedule (daily/weekly/monthly), or its default language/region:** use `update_prompt_topic` with the `topicId` and only the fields to change.
+- **Remove one prompt:** use `delete_prompt` — identify it by `promptId` (preferred) or exact `promptText`. The rest of the topic and its history stay intact.
+- **Remove an entire topic and all of its prompts** (e.g. a duplicate or unwanted topic): use `delete_prompt_topic` with the `topicId`. Use this rather than deleting every prompt one by one.
 
 ### Step 4: Run Initial Tracking
 

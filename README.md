@@ -64,7 +64,7 @@ If you prefer API key authentication, generate a key in your [Reaudit Dashboard]
 
 ## Features
 
-This plugin provides access to **182 tools** across these categories:
+This plugin provides access to **185 tools** across these categories:
 
 ### AI Visibility
 - Check your AI visibility score across 11 platforms
@@ -230,7 +230,10 @@ These MCP Apps use the Reaudit dark theme with glass card effects and platform-s
 
 > Track the prompt "best project management tools"
 > Which prompts mention my brand?
+> Fix the wording of that prompt instead of adding a new one
+> Rename this topic and switch it to weekly tracking
 > Delete the outdated 2025 prompt from my Greek beauty topic
+> Delete the whole duplicate prompt topic
 > Scan my site for AI agent readiness and tell me what's failing
 > What new content have my competitors published this week?
 
