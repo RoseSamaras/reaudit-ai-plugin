@@ -1,8 +1,8 @@
 {
   "name": "reaudit",
   "displayName": "Reaudit",
-  "version": "1.9.0",
-  "description": "AI Search Visibility Platform — Track, optimize, and amplify your brand presence across ChatGPT, Claude, Perplexity, Gemini, and 7 more AI engines. 185 tools: visibility scoring, raw verbatim AI engine responses, reverse citation lookup with per-engine source-type breakdown, entity authority scoring (Wikidata/Wikipedia/sameAs knowledge graph), ChatGPT (Bing-grounding) eligibility checks, free AI-bot crawlability checks (GPTBot, ClaudeBot, PerplexityBot), AI agent readiness scanning, competitor content radar, reusable agent skills, full prompt tracking and management (create/rename/enable/schedule/delete topics, add/edit/delete prompts), GEO content generation with answer-shape scoring, AI Commerce Shopping visibility via Google Merchant Center (competitive share of voice, product feed health), paid intelligence with multi-platform ad campaigns (Google, Meta, LinkedIn, X, and ChatGPT Ads on OpenAI), Adthena-style ChatGPT competitor ad intelligence, CRO with funnel analysis and A/B testing, revenue attribution, Reddit lead monitoring, Bing Webmaster, GitHub auto-fix pull requests, and interactive MCP App visualizations.",
+  "version": "1.10.0",
+  "description": "AI Search Visibility Platform — Track, optimize, and amplify your brand presence across ChatGPT, Claude, Perplexity, Gemini, and 7 more AI engines. 189 tools: visibility scoring, raw verbatim AI engine responses, reverse citation lookup with per-engine source-type breakdown, entity authority scoring (Wikidata/Wikipedia/sameAs knowledge graph), ChatGPT (Bing-grounding) eligibility checks, free AI-bot crawlability checks (GPTBot, ClaudeBot, PerplexityBot), AI agent readiness scanning, competitor content radar, reusable agent skills, full prompt tracking and management (create/rename/enable/schedule/delete topics, add/edit/delete prompts), GEO content generation with answer-shape scoring, automated content audits that score existing pages for AI search visibility (freshness, answer-shape, readability, entity gap, brand-voice drift) and draft grounded fixes, AI Commerce Shopping visibility via Google Merchant Center (competitive share of voice, product feed health), paid intelligence with multi-platform ad campaigns (Google, Meta, LinkedIn, X, and ChatGPT Ads on OpenAI), Adthena-style ChatGPT competitor ad intelligence, CRO with funnel analysis and A/B testing, revenue attribution, Reddit lead monitoring, Bing Webmaster, GitHub auto-fix pull requests, and interactive MCP App visualizations.",
   "author": {
     "name": "Reaudit",
     "email": "support@reaudit.io"
@@ -32,6 +32,7 @@
     "content-radar",
     "prompt-management",
     "content-optimization",
+    "content-audit",
     "paid-intelligence",
     "ad-creative",
     "visibility-gaps",

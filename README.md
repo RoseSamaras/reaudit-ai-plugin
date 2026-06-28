@@ -64,7 +64,7 @@ If you prefer API key authentication, generate a key in your [Reaudit Dashboard]
 
 ## Features
 
-This plugin provides access to **185 tools** across these categories:
+This plugin provides access to **189 tools** across these categories:
 
 ### AI Visibility
 - Check your AI visibility score across 11 platforms
@@ -88,6 +88,12 @@ This plugin provides access to **185 tools** across these categories:
 - Publish directly to WordPress or React/Next.js sites
 - Create and schedule social media posts
 - Generate social images and cross-post across platforms
+
+### Content Audit
+- **Content inventory** — build an auditable inventory of your existing pages from Reaudit-generated content, WordPress, Shopify, and/or your sitemap
+- **AI search visibility scoring** — score each page on five checks: GEO answer-shape (extractability for AI engines), freshness, readability, entity gap (does the page actually name your brand, products, and core topics?), and brand-voice drift
+- **Severity-ranked findings** — every issue comes with the page URL, a specific message, and a recommendation
+- **Grounded fixes** — generate an AI-optimized rewrite for Reaudit-managed pages, or a copyable fix suggestion for external pages
 
 ### Competitive Intelligence
 - Compare visibility against tracked competitors
@@ -195,6 +201,7 @@ These MCP Apps use the Reaudit dark theme with glass card effects and platform-s
 - `/reaudit:visibility` — Check brand visibility scores
 - `/reaudit:tracking` — Manage prompt tracking
 - `/reaudit:content` — Generate AI-optimized content
+- `/reaudit:content-audit` — Audit existing content for AI search visibility and fix the gaps
 - `/reaudit:competitors` — Competitor comparison
 - `/reaudit:analytics` — Analytics dashboards and reports
 - `/reaudit:shopping` — Google Merchant Center Shopping AI visibility and product feed health
@@ -210,6 +217,7 @@ These MCP Apps use the Reaudit dark theme with glass card effects and platform-s
 
 - **AI Visibility Audit** — Full audit of brand presence across AI search engines
 - **Content Optimization** — Generate and publish GEO-optimized content
+- **Content Audit** — Inventory existing pages, score them for AI search visibility, and draft grounded fixes
 - **Competitor Analysis** — Benchmark against competitors in AI search
 - **Prompt Tracking Setup** — Set up systematic prompt monitoring at scale
 - **Shopping Visibility** — Analyze Google Merchant Center Shopping AI visibility, competitive share, and product feed health
@@ -244,6 +252,11 @@ These MCP Apps use the Reaudit dark theme with glass card effects and platform-s
 
 > Write a blog post about AI search optimization
 > Publish my article to WordPress
+
+> Audit my existing content for AI search visibility
+> Which of my pages are stale or hard for AI to cite?
+> Import my sitemap and run a content audit
+> Generate a fix for the lowest-scoring page
 
 > How do I compare against competitors in AI search?
 > Add Acme Corp as a competitor
