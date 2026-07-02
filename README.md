@@ -64,7 +64,12 @@ If you prefer API key authentication, generate a key in your [Reaudit Dashboard]
 
 ## Features
 
-This plugin provides access to **189 tools** across these categories:
+This plugin provides access to **192 tools** across these categories:
+
+### Projects & Onboarding
+- **Create a project end-to-end** — `create_project` runs the full onboarding pipeline from a single call: website crawl, AI brand analysis, SEO audit, competitor detection, and AI-prompt suggestions (requires name, website, country, and language)
+- Returns the new project ID, audit scores (current + potential), detected industry, competitors, and suggested prompts ready to track
+- Manage project settings: brand aliases, products, trademarks, competitors
 
 ### AI Visibility
 - Check your AI visibility score across 11 platforms
@@ -198,6 +203,7 @@ These MCP Apps use the Reaudit dark theme with glass card effects and platform-s
 
 ## Slash Commands
 
+- `/reaudit:projects` — Create a project with full onboarding (crawl, AI analysis, SEO audit, competitors, prompt suggestions) and manage settings
 - `/reaudit:visibility` — Check brand visibility scores
 - `/reaudit:tracking` — Manage prompt tracking
 - `/reaudit:content` — Generate AI-optimized content
@@ -215,6 +221,7 @@ These MCP Apps use the Reaudit dark theme with glass card effects and platform-s
 
 ## Skills
 
+- **Project Onboarding** — Create a project and run the full onboarding pipeline, then turn the results into a working tracking setup
 - **AI Visibility Audit** — Full audit of brand presence across AI search engines
 - **Content Optimization** — Generate and publish GEO-optimized content
 - **Content Audit** — Inventory existing pages, score them for AI search visibility, and draft grounded fixes
@@ -230,6 +237,9 @@ These MCP Apps use the Reaudit dark theme with glass card effects and platform-s
 ## Example Usage
 
 ```
+> Create a new project for my client's site https://example.com, UK market, English
+> Set up this brand on Reaudit and start tracking the suggested prompts
+
 > What's my AI visibility score?
 > How does ChatGPT see my brand?
 > What did ChatGPT and Perplexity actually say about my brand last week?
