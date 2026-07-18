@@ -64,7 +64,7 @@ If you prefer API key authentication, generate a key in your [Reaudit Dashboard]
 
 ## Features
 
-This plugin provides access to **192 tools** across these categories:
+This plugin provides access to **197 tools** across these categories:
 
 ### Projects & Onboarding
 - **Create a project end-to-end** — `create_project` runs the full onboarding pipeline from a single call: website crawl, AI brand analysis, SEO audit, competitor detection, and AI-prompt suggestions (requires name, website, country, and language)
@@ -182,6 +182,7 @@ This plugin provides access to **192 tools** across these categories:
 - Monitor Reddit for brand mentions and lead opportunities
 - Track and qualify Reddit leads by relevance
 - Update lead status and notes for follow-up
+- **Draft Reddit replies** — `draft_reddit_reply` crawls AI-cited Reddit threads and drafts on-brand comment replies (1 credit per generation; returns cached drafts when available)
 
 ### GTM Strategy
 - 6-module, 21-step Go-To-Market strategy builder
@@ -245,6 +246,7 @@ These MCP Apps use the Reaudit dark theme with glass card effects and platform-s
 > What did ChatGPT and Perplexity actually say about my brand last week?
 > Can GPTBot and ClaudeBot actually reach my homepage?
 > Which prompts cause competitor.com to get cited?
+> Draft a helpful Reddit reply for this AI-cited thread: https://reddit.com/r/SEO/comments/...
 
 > Track the prompt "best project management tools"
 > Which prompts mention my brand?

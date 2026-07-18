@@ -15,6 +15,7 @@ Use the Reaudit MCP tools to analyze citation sources and outreach:
 5. Use `extract_author_info` to get contact info from a cited URL
 6. Use `list_outreach_opportunities` to see potential link building contacts
 7. Use `create_outreach_opportunity` to track a new outreach target
+8. Use `draft_reddit_reply` to crawl an AI-cited Reddit thread and draft an on-brand comment reply (1 credit per generation; returns cached drafts when available)
 
 ## Example prompts
 
@@ -25,4 +26,4 @@ Use the Reaudit MCP tools to analyze citation sources and outreach:
 - "What's my entity authority score and how do I improve it?"
 - "Extract the author info from this URL"
 - "What are my outreach opportunities?"
-- "Which pages should I optimize for more AI citations?"
+- "Draft a helpful Reddit reply for this AI-cited thread"
