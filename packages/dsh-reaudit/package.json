@@ -1,0 +1,34 @@
+{
+  "name": "dsh-reaudit",
+  "description": "Reaudit MCP for DeepSeek Harness: mounts the hosted Reaudit MCP server (https://mcp.reaudit.io/mcp) through the in-box @deepseek-ai/dsh-mcp-client bridge.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://reaudit.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoseSamaras/reaudit-ai-plugin.git",
+    "directory": "packages/dsh-reaudit"
+  },
+  "files": [
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "assets/logo.png"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "mcp",
+    "reaudit",
+    "ai-visibility",
+    "seo",
+    "geo"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+# dsh-reaudit: the Reaudit MCP server as a deepseek-harness bundle.
+#
+# One row that connects to the hosted Reaudit MCP server
+# (https://mcp.reaudit.io/mcp, Streamable HTTP) through the mcp-client bridge
+# the dsh CLI ships with (@deepseek-ai/dsh-mcp-client). The server's tools are
+# registered under the `reaudit` namespace, e.g.
+#   mcp__reaudit__list_projects
+#   mcp__reaudit__get_visibility_score
+#   mcp__reaudit__get_competitor_comparison
+#   mcp__reaudit__run_audit
+#   mcp__reaudit__generate_content
+#   ...
+#
+# Authentication: a Reaudit API key (rau_…) from reaudit.io → Tools → MCP
+# Server, read from REAUDIT_API_KEY and sent as a bearer token. A header
+# rather than the `?apiKey=` query form keeps the key out of access logs.
+# Without the variable the server answers 401; failOnStartupError: false
+# lets dsh boot anyway, without the Reaudit tools.
+#
+# Override from a later layer (profile cordis.patch.yml or --patch) by
+# repeating this row's id WITHOUT `insert` — an `insert` with the same id
+# fails with "duplicate loader entry id".
+#
+- insert:
+    - id: mcp-reaudit
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: reaudit
+        transport: streamable-http
+        url: https://mcp.reaudit.io/mcp
+        headers:
+          Authorization: !!js "`Bearer ${process.env.REAUDIT_API_KEY || ''}`"
+        # Audits, strategy steps and content generation run for minutes.
+        toolCallTimeoutMs: 300000
+        failOnStartupError: false
