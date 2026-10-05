@@ -26,11 +26,22 @@ Track, optimize, and grow your brand presence across 11 AI search engines:
 
 ### Cursor
 
-Install from the [Cursor Marketplace](https://cursor.com/marketplace) (search for "reaudit"), or run:
+**Recommended:** list on [Cursor Directory](https://cursor.directory/plugins/new) (community catalog — submit [this repo](https://github.com/RoseSamaras/reaudit-ai-plugin)).
 
+After install, connect via OAuth on first use, or add the hosted MCP manually:
+
+```json
+{
+  "mcpServers": {
+    "reaudit": {
+      "type": "http",
+      "url": "https://mcp.reaudit.io/mcp"
+    }
+  }
+}
 ```
-/add-plugin reaudit
-```
+
+Slash commands and skills ship from this repo when installed as a plugin. The official [Cursor Marketplace](https://cursor.com/marketplace) `cursor/plugins` catalog is not listing new third-party MCPs at this time (Oct 2026).
 
 ### Claude Code
 
